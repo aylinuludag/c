@@ -1,0 +1,19 @@
+# #include<stdio.h>
+
+int main()
+{
+	//integer
+	int x=7;
+	printf("value of variable x %d\n",x);
+	
+	//float
+	float y=1.5;
+	printf("value of variable y %f\n",y);
+	
+	//char
+	char name[15]="aylin";
+	printf("value of variable name %s\n",name);
+	printf("first letter of the name sequence %c\n",name[0]);
+
+return 0;	
+}
